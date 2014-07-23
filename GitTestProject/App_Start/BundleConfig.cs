@@ -24,7 +24,9 @@ namespace GitTestProject
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      //"~/Content/bootstrap.css",
+                      "~/Content/theme/css/bootstrap.min.css",
+                      "~/Content/theme/css/templatemo_style.css",
+                      "~/Content/theme/css/camera.css",
                       "~/Content/site.css"));
         }
     }
